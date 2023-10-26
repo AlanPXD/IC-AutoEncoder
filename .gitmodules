@@ -4,3 +4,6 @@
 [submodule "TensorflowUtils"]
 	path = TensorflowUtils
 	url = https://github.com/AlanPXD/TensorflowUtils
+[submodule "PlotNeuralNet"]
+	path = PlotNeuralNet
+	url = https://github.com/HarisIqbal88/PlotNeuralNet

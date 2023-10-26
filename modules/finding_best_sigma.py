@@ -2,7 +2,6 @@ from scipy.ndimage import gaussian_filter
 from tensorflow.python.ops.image_ops_impl import ssim
 
 
-
 def find_best_sigma_for_ssim (x, y) -> float:
     """
         Essa função encontra o sigma do filtro gaussiano que maximiza o ssim para uma base de dados.
@@ -15,9 +14,11 @@ def find_best_sigma_for_ssim (x, y) -> float:
         return mean
 
     end = False
-    sigma = 0.5
+    sigma = 0.2
     step = 0.2
     previous_mean = 0
+
+    print(sigma)
 
     while (not end):
 
